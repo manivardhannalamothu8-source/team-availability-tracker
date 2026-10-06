@@ -1,0 +1,114 @@
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f5fa;
+  color: #172033;
+}
+
+header {
+  background: #151c32;
+  color: white;
+  padding: 28px 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+header h1 { margin: 0 0 8px; }
+header p { margin: 0; color: #c2cadb; }
+
+.live { color: #86efac; font-weight: bold; }
+
+main {
+  max-width: 1400px;
+  margin: 30px auto;
+  padding: 0 22px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.stats article {
+  background: white;
+  padding: 22px;
+  border-radius: 14px;
+  box-shadow: 0 3px 14px #16213a0b;
+}
+
+.stats span { color: #647087; font-size: 14px; }
+.stats strong { display: block; font-size: 30px; margin-top: 12px; }
+
+.toolbar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+input, select {
+  padding: 13px;
+  border: 1px solid #d8deea;
+  border-radius: 9px;
+  background: white;
+  font-size: 15px;
+}
+
+input { flex: 1; min-width: 0; }
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.member {
+  background: white;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 3px 14px #16213a0b;
+}
+
+.member h3 { margin: 0 0 6px; }
+.role, .timezone { color: #69758b; font-size: 14px; }
+
+.badge {
+  display: inline-block;
+  padding: 7px 10px;
+  margin: 14px 0;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.badge.Available { color: #166534; background: #dcfce7; }
+.badge.Busy { color: #991b1b; background: #fee2e2; }
+.badge.Away { color: #92400e; background: #fef3c7; }
+
+.buttons { display: flex; gap: 6px; margin-top: 16px; }
+
+.buttons button {
+  flex: 1;
+  padding: 9px 4px;
+  border: 0;
+  border-radius: 7px;
+  background: #edf1f7;
+  cursor: pointer;
+}
+
+.buttons button:hover { background: #dbe4f2; }
+.buttons button:disabled { opacity: .5; cursor: wait; }
+
+#message { color: #475569; font-size: 14px; }
+
+@media (max-width: 650px) {
+  .stats { grid-template-columns: repeat(2, 1fr); }
+  .toolbar { flex-direction: column; }
+  header { padding: 22px; }
+}

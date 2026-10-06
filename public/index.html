@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Team Availability Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Team Availability</h1>
+      <p>Know who's available, anywhere in the world.</p>
+    </div>
+    <span class="live">● LIVE</span>
+  </header>
+
+  <main>
+    <section class="stats">
+      <article><span>Available</span><strong id="available">0</strong></article>
+      <article><span>Busy</span><strong id="busy">0</strong></article>
+      <article><span>Away</span><strong id="away">0</strong></article>
+      <article><span>Total members</span><strong id="total">0</strong></article>
+    </section>
+
+    <section class="toolbar">
+      <input id="search" placeholder="Search by name or role...">
+      <select id="filter">
+        <option value="All">All statuses</option>
+        <option>Available</option>
+        <option>Busy</option>
+        <option>Away</option>
+      </select>
+    </section>
+
+    <p id="message" role="status"></p>
+    <section id="team" class="team-grid"></section>
+  </main>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

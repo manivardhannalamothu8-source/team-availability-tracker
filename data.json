@@ -1,0 +1,324 @@
+{
+  "team": [
+    {
+      "id": 1,
+      "name": "Team Member 1",
+      "role": "Design",
+      "status": "Available",
+      "timezone": "Europe/London",
+      "updatedAt": "2026-10-06T08:11:18.143Z"
+    },
+    {
+      "id": 2,
+      "name": "Team Member 2",
+      "role": "Product",
+      "status": "Away",
+      "timezone": "Asia/Kolkata",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 3,
+      "name": "Team Member 3",
+      "role": "Engineering",
+      "status": "Available",
+      "timezone": "Europe/London",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 4,
+      "name": "Team Member 4",
+      "role": "QA",
+      "status": "Away",
+      "timezone": "Europe/London",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 5,
+      "name": "Team Member 5",
+      "role": "QA",
+      "status": "Busy",
+      "timezone": "Europe/London",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 6,
+      "name": "Team Member 6",
+      "role": "Product",
+      "status": "Away",
+      "timezone": "America/New_York",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 7,
+      "name": "Team Member 7",
+      "role": "Engineering",
+      "status": "Away",
+      "timezone": "America/New_York",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 8,
+      "name": "Team Member 8",
+      "role": "QA",
+      "status": "Busy",
+      "timezone": "America/New_York",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 9,
+      "name": "Team Member 9",
+      "role": "QA",
+      "status": "Busy",
+      "timezone": "Asia/Kolkata",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 10,
+      "name": "Team Member 10",
+      "role": "Design",
+      "status": "Available",
+      "timezone": "Asia/Kolkata",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 11,
+      "name": "Team Member 11",
+      "role": "Design",
+      "status": "Available",
+      "timezone": "America/New_York",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 12,
+      "name": "Team Member 12",
+      "role": "Product",
+      "status": "Available",
+      "timezone": "America/New_York",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 13,
+      "name": "Team Member 13",
+      "role": "Engineering",
+      "status": "Busy",
+      "timezone": "Europe/London",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 14,
+      "name": "Team Member 14",
+      "role": "Design",
+      "status": "Available",
+      "timezone": "America/New_York",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 15,
+      "name": "Team Member 15",
+      "role": "QA",
+      "status": "Busy",
+      "timezone": "Asia/Kolkata",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 16,
+      "name": "Team Member 16",
+      "role": "Design",
+      "status": "Away",
+      "timezone": "Europe/London",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 17,
+      "name": "Team Member 17",
+      "role": "QA",
+      "status": "Away",
+      "timezone": "America/New_York",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 18,
+      "name": "Team Member 18",
+      "role": "Engineering",
+      "status": "Busy",
+      "timezone": "Asia/Kolkata",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 19,
+      "name": "Team Member 19",
+      "role": "Engineering",
+      "status": "Busy",
+      "timezone": "Europe/London",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 20,
+      "name": "Team Member 20",
+      "role": "QA",
+      "status": "Away",
+      "timezone": "Asia/Kolkata",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 21,
+      "name": "Team Member 21",
+      "role": "QA",
+      "status": "Available",
+      "timezone": "America/New_York",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 22,
+      "name": "Team Member 22",
+      "role": "QA",
+      "status": "Busy",
+      "timezone": "Europe/London",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 23,
+      "name": "Team Member 23",
+      "role": "Product",
+      "status": "Available",
+      "timezone": "Europe/London",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 24,
+      "name": "Team Member 24",
+      "role": "Engineering",
+      "status": "Busy",
+      "timezone": "America/New_York",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 25,
+      "name": "Team Member 25",
+      "role": "Engineering",
+      "status": "Away",
+      "timezone": "Europe/London",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 26,
+      "name": "Team Member 26",
+      "role": "QA",
+      "status": "Away",
+      "timezone": "Europe/London",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 27,
+      "name": "Team Member 27",
+      "role": "Product",
+      "status": "Busy",
+      "timezone": "America/New_York",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 28,
+      "name": "Team Member 28",
+      "role": "Design",
+      "status": "Busy",
+      "timezone": "Asia/Kolkata",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 29,
+      "name": "Team Member 29",
+      "role": "Product",
+      "status": "Busy",
+      "timezone": "America/New_York",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 30,
+      "name": "Team Member 30",
+      "role": "QA",
+      "status": "Away",
+      "timezone": "Europe/London",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 31,
+      "name": "Team Member 31",
+      "role": "Design",
+      "status": "Busy",
+      "timezone": "America/New_York",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 32,
+      "name": "Team Member 32",
+      "role": "Design",
+      "status": "Away",
+      "timezone": "Asia/Kolkata",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 33,
+      "name": "Team Member 33",
+      "role": "Design",
+      "status": "Available",
+      "timezone": "Asia/Kolkata",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 34,
+      "name": "Team Member 34",
+      "role": "QA",
+      "status": "Busy",
+      "timezone": "Asia/Kolkata",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 35,
+      "name": "Team Member 35",
+      "role": "Design",
+      "status": "Available",
+      "timezone": "America/New_York",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 36,
+      "name": "Team Member 36",
+      "role": "QA",
+      "status": "Away",
+      "timezone": "America/New_York",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 37,
+      "name": "Team Member 37",
+      "role": "Design",
+      "status": "Available",
+      "timezone": "America/New_York",
+      "updatedAt": "2026-10-06T08:15:36.713Z"
+    },
+    {
+      "id": 38,
+      "name": "Team Member 38",
+      "role": "Engineering",
+      "status": "Available",
+      "timezone": "America/New_York",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 39,
+      "name": "Team Member 39",
+      "role": "Product",
+      "status": "Away",
+      "timezone": "Asia/Kolkata",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    },
+    {
+      "id": 40,
+      "name": "Team Member 40",
+      "role": "QA",
+      "status": "Away",
+      "timezone": "Europe/London",
+      "updatedAt": "2026-10-06T08:07:27.077Z"
+    }
+  ]
+}
